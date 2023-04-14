@@ -1,0 +1,22 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+img.logo {
+    width: 10%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #747070;
+}
