@@ -166,12 +166,12 @@ img {
 .skills-title {
     border-bottom: solid #FFD5C4;
     border-width: 2px;
-    width: 50%;
+    width: 15%;
 }
 .roles-title {
     border-bottom: solid #FFD5C4;
     border-width: 2px;
-    width: 55%;    
+    width: 15%;    
 }
 ul, .skill-list {
     display: flex;
@@ -199,10 +199,14 @@ li, .subtitle1 {
 .contact-title {
     border-bottom: solid #FFD5C4;
     border-width: 2px;
+    width: 15%;
 }
 .footer-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    margin-top: 10%;
+}
+@media (min-width 600) {
+    
 }
