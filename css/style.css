@@ -122,6 +122,9 @@ img {
     flex-direction: column;
     width: 50vw;
     margin-top: 5%;
+    border-top: solid #FFD5C4;
+    border-width: 3px;
+    padding-top: 5%;
 }
 .case-study-visual {
     border: solid #FFD5C4;
@@ -207,6 +210,49 @@ li, .subtitle1 {
     justify-content: space-between;
     margin-top: 10%;
 }
-@media (min-width 600) {
-    
+@media (min-width: 600px) {
+
+    .case-study-content {
+        flex-direction: row;
+        width: 85vw;
+        gap: 10px;
+    }
+    .case-study-content:nth-child(3) {
+        flex-direction: row-reverse;
+    }
+    .case-study-visual {
+        width: 100%;
+    }
+    .case-study-title {
+        width: 40%;
+    }
+    .case-study-info {
+        width: 80%;
+    }
+    .skill-contact-container {
+        width: 80%;
+    }
+    .skills-roles {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .skills-title {
+        width: 26%;
+    }
+    .roles-title {
+        width: 28%;
+    }
+    .subtitle1 {
+        padding: 4%;
+    }
+    .contact {
+        width: 50%;
+    }
+    .contact-title {
+        width: 20%;
+    }
+    .contact-title.lkdin {
+        width: 35%;
+    }   
 }
