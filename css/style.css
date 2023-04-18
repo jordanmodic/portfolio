@@ -46,6 +46,7 @@ ul, .nav-list {
     display: flex;
     align-items: flex-end;
     flex-direction: row;
+    row-gap: 5px;
 }
 li {
     padding: 5%;
@@ -54,7 +55,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     color: #747070;
-    font-size: 24px;
+    font-size: 20px;
 }
 .logo {
     width: 20%;
@@ -212,6 +213,26 @@ li, .subtitle1 {
 }
 @media (min-width: 600px) {
 
+    .about-container {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .about-image {
+        flex-shrink: 0;
+        width: 50%;
+    }
+    .about-content {
+        width: 100%;
+        margin-top: -.01%;
+    }
+    .about-title {
+        width: 80%;
+    }
+    .about-text {
+        width: 90%;
+    }
     .case-study-content {
         flex-direction: row;
         width: 85vw;
